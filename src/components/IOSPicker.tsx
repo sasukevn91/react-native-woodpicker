@@ -50,7 +50,7 @@ const IOSPicker = ({
         animationType="slide"
         supportedOrientations={["portrait", "landscape"]}
       >
-        <TouchableOpacity style={styles.blurTouchable} onPress={togglePicker}>
+        <TouchableOpacity style={styles.blurTouchable}>
           <Animated.View
             style={[
               styles.animatedInput,
